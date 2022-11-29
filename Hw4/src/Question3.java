@@ -12,7 +12,7 @@ public class Question3 {
 
     public int hashCode(){
         //TODO
-        return lastName.hashCode();
+        return lastName.toUpperCase().hashCode();
 
     }
 
