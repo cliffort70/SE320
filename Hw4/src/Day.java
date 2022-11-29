@@ -72,7 +72,7 @@ public class Day
    {
       ensureJulian();
       other.ensureJulian();
-      return julian - other.julian;
+      return julian - other.julian;//
    }
 
    private Day(int aJulian)
